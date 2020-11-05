@@ -1,5 +1,0 @@
-#predict function
-def predict(jpgPath):
-  outputs = cnn_model(images.to(device=device))
-    _, predicted = torch.max(outputs.data, 1)
-    print (predicted)
